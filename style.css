@@ -1,13 +1,20 @@
-body{
+/* 
+  Aggiungo un font-family direttamente al body. Grazie all'inherit ogni elemento
+  dentro al body prenderà questo font, a meno che non sia specificato diversamente 
+*/
+body {
   font-family: verdana;
 }
 
-.navigation-bar{
+/* 
+  Aggiungo un padding per poter spaziare il contenuto all'interno della mia navigation bar. 
+*/
+.navigation-bar {
   background: #000;
   padding: 20px;
 }
 
-.navigation-bar a{
+.navigation-bar a {
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -16,6 +23,10 @@ body{
   background: purple;
 }
 
-.navigation-bar .active{
+/* 
+  Assegno uno stile specifico solo agli elementi dentro navigation-bar con la 
+  classe active. 
+*/
+.navigation-bar .active {
   text-decoration: underline;
 }
