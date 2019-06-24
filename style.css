@@ -1,0 +1,21 @@
+body{
+  font-family: verdana;
+}
+
+.navigation-bar{
+  background: #000;
+  padding: 20px;
+}
+
+.navigation-bar a{
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  background: purple;
+}
+
+.navigation-bar .active{
+  text-decoration: underline;
+}
